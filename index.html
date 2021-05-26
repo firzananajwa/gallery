@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gallery</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  background-image: url("blue.JPG");
+  background-color: #cccccc;
+  background-image: linear-gradient rgba(255,0,0,0), rgba(255,0,0,0));
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body {
+  font-family: Candara;
+  margin: 0;
+}
+
+.header {
+  padding: 1px;
+  text-align: center;
+  background: pink;
+  color: white;
+  font-size: 30px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+</head>
+
+<body>	
+<div class="header">
+  <marquee><h2>Memories (I am holding my tears)</marquee></h2>
+  <p>I miss all the moments, miss all my frineds!</p>
+</div>
+
+<div class="row">
+  <div class="column">
+    <img src="img.jpg" alt="img" style="width:100%">
+    <img src="img2.jpg" alt="img" style="width:100%">
+    <img src="img3.jpg" alt="img" style="width:100%">
+    <img src="img10.jpg" alt="img" style="width:100%">
+
+  </div>
+  <div class="column">
+    <img src="img4.jpg" alt="img" style="width:100%">
+    <img src="img5.jpg" alt="img" style="width:100%">
+    <img src="img6.jpg" alt="img" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="img7.jpg" alt="img" style="width:100%">
+    <img src="img8.jpg" alt="img" style="width:100%">
+    <img src="img9.jpg" alt="img" style="width:100%">
+    <img src="img11.jpg" alt="img" style="width:100%">
+  </div>
+</div>
+
+</body>
+</html>
